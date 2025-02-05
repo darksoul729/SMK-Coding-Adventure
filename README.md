@@ -14,6 +14,8 @@ Nama saya **Kevin Hermansyah**. Saat ini saya bersekolah di **SMK TI Airlangga**
 ![C++](https://img.shields.io/badge/C++-75%25-00599C?style=for-the-badge&logo=c%2B%2B)  
 ![Python](https://img.shields.io/badge/Python-90%25-3776AB?style=for-the-badge&logo=python)  
 ![JavaScript](https://img.shields.io/badge/JavaScript-88%25-F7DF1E?style=for-the-badge&logo=javascript)  
+![Go](https://img.shields.io/badge/Go-70%25-00ADD8?style=for-the-badge&logo=go)  
+![Java](https://img.shields.io/badge/Java-80%25-007396?style=for-the-badge&logo=java)
 
 ## <span style="font-family: 'Arial', sans-serif; color: #333;">Motivasi Hidup Menjadi Fullstack Programmer</span>
 
