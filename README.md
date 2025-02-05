@@ -1,7 +1,7 @@
 # <span style="color: #4CAF50;">Kevin Hermansyah</span>
 
 <p align="center">
-  <img src="https://e.top4top.io/p_3323z77iw0.jpg" alt="Kevin Hermansyah" style="border-radius: 50%; width: 150px; height: 150px;">
+  <img src="https://e.top4top.io/p_3323z77iw0.jpg" alt="Kevin Hermansyah" style="border-radius: 50%; width: 200px; height: 200px;">
 </p>
 
 ## <span style="font-family: 'Arial', sans-serif; color: #333;">Tentang Saya</span>
