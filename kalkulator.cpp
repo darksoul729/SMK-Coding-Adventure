@@ -23,7 +23,7 @@ int main() {
     cin >> operasi;
     cout << "Masukkan angka pertama: ";
     cin >> angka1;
-    cout << "Masukkan angka kedua: ";
+    cout << "Masukkan angka kedua.: ";
     cin >> angka2;
     
     // Melakukan operasi berdasarkan input pengguna
