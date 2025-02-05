@@ -52,7 +52,7 @@ int main() {
     do {
         cout << "\nSistem Toko:\n";
         cout << "1. Lihat Produk\n";
-        cout << "2. Beli Produk\n";
+        cout << "2. Beli Produk.\n";
         cout << "3. Keluar\n";
         cout << "Pilih menu: ";
         cin >> pilihan;
