@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+    <div class="bg-white shadow-lg rounded-lg p-6 w-full max-w-2xl">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">CRUD Flask Python Kepin</h1>
+        
+        <h2 class="text-xl font-semibold text-gray-700 mb-2">Items List</h2>
+        <div class="overflow-x-auto">
+            <table class="w-full border-collapse bg-gray-100 rounded-lg overflow-hidden shadow-md">
+                <thead>
+                    <tr class="bg-gray-300 text-gray-800">
+                        <th class="px-4 py-2">Index</th>
+                        <th class="px-4 py-2">Name</th>
+                        <th class="px-4 py-2">Action</th>
+                    </tr>
+                </thead>
+                <tbody id="item-list" class="text-gray-700">
+                    <!-- Items will be rendered here -->
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="mt-6">
+            <h2 class="text-xl font-semibold text-gray-700 mb-2">Add Item</h2>
+            <form id="add-item-form" class="flex gap-2">
+                <input type="text" id="item-name" placeholder="Enter item name" required
+                    class="flex-1 px-3 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500">
+                <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600">Add</button>
+            </form>
+        </div>
+        
+        <div class="mt-6">
+            <h2 class="text-xl font-semibold text-gray-700 mb-2">Update Item</h2>
+            <form id="update-item-form" class="flex gap-2">
+                <input type="number" id="item-index" placeholder="Index" required
+                    class="w-20 px-3 py-2 border rounded-lg focus:ring-2 focus:ring-yellow-500">
+                <input type="text" id="update-item-name" placeholder="New name" required
+                    class="flex-1 px-3 py-2 border rounded-lg focus:ring-2 focus:ring-yellow-500">
+                <button type="submit" class="px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600">Update</button>
+            </form>
+        </div>
+        
+        <div class="mt-6">
+            <h2 class="text-xl font-semibold text-gray-700 mb-2">Delete Item</h2>
+            <form id="delete-item-form" class="flex gap-2">
+                <input type="number" id="delete-item-index" placeholder="Index" required
+                    class="w-20 px-3 py-2 border rounded-lg focus:ring-2 focus:ring-red-500">
+                <button type="submit" class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600">Delete</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        async function fetchItems() {
+            const response = await fetch('/items');
+            const items = await response.json();
+            const itemList = document.getElementById('item-list');
+            itemList.innerHTML = '';
+            items.forEach((item, index) => {
+                itemList.innerHTML += `<tr class='bg-gray-100 border-b'>
+                    <td class='px-4 py-2 text-center'>${index}</td>
+                    <td class='px-4 py-2'>${item.name}</td>
+                    <td class='px-4 py-2 text-center'>
+                        <button class='px-3 py-1 bg-red-500 text-white rounded-lg hover:bg-red-600' onclick='deleteItem(${index})'>Delete</button>
+                    </td>
+                </tr>`;
+            });
+        }
+
+        document.getElementById('add-item-form').addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const itemName = document.getElementById('item-name').value;
+            await fetch('/items', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: itemName })
+            });
+            fetchItems();
+            document.getElementById('item-name').value = '';
+        });
+
+        document.getElementById('update-item-form').addEventListener('submit', async (event) => {
+            event.preventDefault();
+            const index = document.getElementById('item-index').value;
+            const newName = document.getElementById('update-item-name').value;
+            await fetch(`/items/${index}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name: newName })
+            });
+            fetchItems();
+            document.getElementById('item-index').value = '';
+            document.getElementById('update-item-name').value = '';
+        });
+
+        async function deleteItem(index) {
+            await fetch(`/items/${index}`, { method: 'DELETE' });
+            fetchItems();
+        }
+
+        fetchItems();
+    </script>
+</body>
+</html>
