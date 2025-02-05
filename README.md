@@ -1,6 +1,6 @@
 # <span style="color: #4CAF50;">Tentang Saya</span>
 <p align="center">
-  <img src="https://k.top4top.io/p_3323okv8q1.jpg" alt="Tentang Saya" style="width: 800px; height: 450px;">
+  <img src="https://c.top4top.io/p_3323blqkv1.jpg" alt="Tentang Saya" style="width: 800px; height: 450px;">
 </p>
 
 
