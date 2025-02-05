@@ -1,16 +1,18 @@
-# <span style="color: #4CAF50;">Kevin Hermansyah</span>
-
-## <span style="font-family: 'Arial', sans-serif; color: #333;">Tentang Saya</span>
-
-Nama saya **Kevin Hermansyah**. Saat ini saya bersekolah di **SMK TI Airlangga**. Saya sangat tertarik dengan dunia pemrograman, khususnya dalam bidang **Fullstack Development**.
-
+# <span style="color: #4CAF50;">Tentang Saya</span>
 <p align="center">
-  <img src="https://k.top4top.io/p_3323okv8q1.jpg" alt="Tentang Saya" style="border-radius: 50%; width: 200px; height: 200px; border: 5px solid #4CAF50; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <img src="https://k.top4top.io/p_3323okv8q1.jpg" alt="Tentang Saya" style="width: 800px; height: 450px;">
 </p>
+
+
+## <span style="font-family: 'Arial', sans-serif; color: #333;">Kevin Hermansyah</span>
 
 <p align="center">
   <img src="https://e.top4top.io/p_3323z77iw0.jpg" alt="Kevin Hermansyah" style="border-radius: 50%; width: 200px; height: 200px; border: 5px solid #4CAF50; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
 </p>
+
+
+Nama saya **Kevin Hermansyah**. Saat ini saya bersekolah di **SMK TI Airlangga**. Saya sangat tertarik dengan dunia pemrograman, khususnya dalam bidang **Fullstack Development**.
+
 
 ### 🚀 Skills
 <p align="center">
