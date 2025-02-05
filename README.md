@@ -9,13 +9,20 @@
 Nama saya **Kevin Hermansyah**. Saat ini saya bersekolah di **SMK TI Airlangga**. Saya sangat tertarik dengan dunia pemrograman, khususnya dalam bidang **Fullstack Development**.
 
 ### 🚀 Skills
-![PHP](https://img.shields.io/badge/PHP-80%25-blue?style=for-the-badge&logo=php)  
-![React](https://img.shields.io/badge/React-85%25-61DAFB?style=for-the-badge&logo=react)  
-![C++](https://img.shields.io/badge/C++-75%25-00599C?style=for-the-badge&logo=c%2B%2B)  
-![Python](https://img.shields.io/badge/Python-90%25-3776AB?style=for-the-badge&logo=python)  
-![JavaScript](https://img.shields.io/badge/JavaScript-88%25-F7DF1E?style=for-the-badge&logo=javascript)  
-![Go](https://img.shields.io/badge/Go-70%25-00ADD8?style=for-the-badge&logo=go)  
-![Java](https://img.shields.io/badge/Java-80%25-007396?style=for-the-badge&logo=java)
+<p align="center">
+  <img src="https://img.shields.io/badge/PHP-80%25-blue?style=for-the-badge&logo=php" alt="PHP">
+  <img src="https://img.shields.io/badge/React-85%25-61DAFB?style=for-the-badge&logo=react" alt="React">
+  <img src="https://img.shields.io/badge/C++-75%25-00599C?style=for-the-badge&logo=c%2B%2B" alt="C++">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-90%25-3776AB?style=for-the-badge&logo=python" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-88%25-F7DF1E?style=for-the-badge&logo=javascript" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Go-70%25-00ADD8?style=for-the-badge&logo=go" alt="Go">
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-80%25-007396?style=for-the-badge&logo=java" alt="Java">
+</p>
+
 
 ## <span style="font-family: 'Arial', sans-serif; color: #333;">Motivasi Hidup Menjadi Fullstack Programmer</span>
 
