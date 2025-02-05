@@ -3,3 +3,5 @@ untuk menjalankan golang harap install go lang terlebih dahulu
 dan menjalankan kepin-go.go dengan perintah go run kepin-go.go
 
 di route localhost:8080/static/
+
+Thanks
