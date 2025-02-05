@@ -1,12 +1,16 @@
 # <span style="color: #4CAF50;">Kevin Hermansyah</span>
 
-<p align="center">
-  <img src="https://e.top4top.io/p_3323z77iw0.jpg" alt="Kevin Hermansyah" style="border-radius: 50%; width: 200px; height: 200px;">
-</p>
-
 ## <span style="font-family: 'Arial', sans-serif; color: #333;">Tentang Saya</span>
 
 Nama saya **Kevin Hermansyah**. Saat ini saya bersekolah di **SMK TI Airlangga**. Saya sangat tertarik dengan dunia pemrograman, khususnya dalam bidang **Fullstack Development**.
+
+<p align="center">
+  <img src="https://k.top4top.io/p_3323okv8q1.jpg" alt="Tentang Saya" style="border-radius: 50%; width: 200px; height: 200px; border: 5px solid #4CAF50; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+</p>
+
+<p align="center">
+  <img src="https://e.top4top.io/p_3323z77iw0.jpg" alt="Kevin Hermansyah" style="border-radius: 50%; width: 200px; height: 200px; border: 5px solid #4CAF50; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+</p>
 
 ### 🚀 Skills
 <p align="center">
@@ -22,7 +26,6 @@ Nama saya **Kevin Hermansyah**. Saat ini saya bersekolah di **SMK TI Airlangga**
 <p align="center">
   <img src="https://img.shields.io/badge/Java-80%25-007396?style=for-the-badge&logo=java" alt="Java">
 </p>
-
 
 ## <span style="font-family: 'Arial', sans-serif; color: #333;">Motivasi Hidup Menjadi Fullstack Programmer</span>
 
