@@ -1,6 +1,6 @@
 # Kevin Hermansyah
 
-![Kevin Hermansyah](https://e.top4top.io/p_3323jrrfy1.jpg)
+<img src="https://e.top4top.io/p_3323jrrfy1.jpg" alt="Kevin Hermansyah" style="border-radius: 50%; width: 150px; height: 150px;">
 
 ## Tentang Saya
 
