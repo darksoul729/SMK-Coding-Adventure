@@ -1,0 +1,7 @@
+untuk menjalankan crud java 
+
+cd crud-java-app
+
+javac -d bin src/*.java
+
+java -cp bin CRUDApp
