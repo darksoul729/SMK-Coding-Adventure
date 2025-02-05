@@ -89,7 +89,7 @@ int main() {
         cout << "1. Lihat Data Siswa\n";
         cout << "2. Tambah Siswa\n";
         cout << "3. Edit Siswa\n";
-        cout << "4. Hapus Siswa\n";
+        cout << "4. Hapus Siswa.\n";
         cout << "5. Keluar\n";
         cout << "Pilih menu: ";
         cin >> pilihan;
