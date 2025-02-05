@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATM WebAssembly</title>
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f0f4f8;
+            font-family: 'Arial', sans-serif;
+        }
+        .atm-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 10px;
+        }
+        .atm-box {
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 450px;
+            text-align: center;
+        }
+        .atm-box h1 {
+            color: #2c3e50;
+        }
+        .atm-box .title, .atm-box .subtitle {
+            color: #34495e;
+        }
+        .input, .button {
+            font-size: 1.2rem;
+            padding: 12px;
+            border-radius: 8px;
+        }
+        .input:focus, .button:focus {
+            outline: none;
+            box-shadow: 0 0 10px rgba(38, 198, 218, 0.8);
+        }
+        .button {
+            width: 100%;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            filter: brightness(1.1);
+        }
+        .has-background-light {
+            background-color: #ecf0f1;
+        }
+        .button.is-primary {
+            background-color: #3498db;
+            border: none;
+        }
+        .button.is-primary:hover {
+            background-color: #2980b9;
+        }
+        .button.is-success {
+            background-color: #2ecc71;
+            border: none;
+        }
+        .button.is-success:hover {
+            background-color: #27ae60;
+        }
+        .button.is-danger {
+            background-color: #e74c3c;
+            border: none;
+        }
+        .button.is-danger:hover {
+            background-color: #c0392b;
+        }
+        .button.is-warning {
+            background-color: #f39c12;
+            border: none;
+        }
+        .button.is-warning:hover {
+            background-color: #e67e22;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="atm-container">
+        <div class="atm-box">
+            <h1 class="title is-3 mb-4">ATM WebAssembly</h1>
+
+            <!-- Cek Saldo -->
+            <div class="mb-5">
+                <h2 class="subtitle is-4">Saldo Anda: <span id="saldo">0</span> IDR</h2>
+                <button onclick="cekSaldo()" class="button is-primary is-rounded mb-4">Cek Saldo</button>
+            </div>
+
+            <!-- Setor Uang -->
+            <div class="mb-5">
+                <input type="number" id="setorAmount" placeholder="Jumlah setor" class="input is-rounded mb-3 has-background-light" min="1">
+                <button onclick="setorUang()" class="button is-success is-rounded">Setor Uang</button>
+            </div>
+
+            <!-- Tarik Uang -->
+            <div class="mb-5">
+                <input type="number" id="tarikAmount" placeholder="Jumlah tarik" class="input is-rounded mb-3 has-background-light">
+                <button onclick="tarikUang()" class="button is-danger is-rounded">Tarik Uang</button>
+            </div>
+
+            <!-- Transfer Uang -->
+            <div class="mb-5">
+                <input type="number" id="transferAmount" placeholder="Jumlah transfer" class="input is-rounded mb-3 has-background-light">
+                <button onclick="transferUang()" class="button is-warning is-rounded">Transfer Uang</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="BankSystem.js"></script>
+    <script>
+        let wasmModule;
+
+        // Inisialisasi WebAssembly
+        Module().then(instance => {
+            wasmModule = instance;
+        });
+
+        // Fungsi untuk cek saldo
+        function cekSaldo() {
+            if (!wasmModule) {
+                alert("WASM belum siap!");
+                return;
+            }
+            const saldo = wasmModule._cekSaldo();
+            document.getElementById("saldo").innerText = saldo;
+        }
+
+        // Fungsi untuk setor uang
+        function setorUang() {
+            const amount = parseFloat(document.getElementById("setorAmount").value);
+            console.log(amount); // Menampilkan nilai amount di konsol
+            if (!wasmModule || isNaN(amount) || amount <= 0) {
+                alert("Input jumlah yang valid!");
+                return;
+            }
+            wasmModule._setorUang(amount);
+            cekSaldo();
+        }
+
+        // Fungsi untuk tarik uang
+        function tarikUang() {
+            const amount = parseFloat(document.getElementById("tarikAmount").value);
+            if (!wasmModule || isNaN(amount) || amount <= 0) {
+                alert("Input jumlah yang valid!");
+                return;
+            }
+            const success = wasmModule._tarikUang(amount);
+            if (success) {
+                alert("Tarik uang berhasil!");
+            } else {
+                alert("Saldo tidak cukup!");
+            }
+            cekSaldo();
+        }
+
+        // Fungsi untuk transfer uang
+        function transferUang() {
+            const amount = parseFloat(document.getElementById("transferAmount").value);
+            if (!wasmModule || isNaN(amount) || amount <= 0) {
+                alert("Input jumlah yang valid!");
+                return;
+            }
+            const success = wasmModule._transferUang(amount);
+            if (success) {
+                alert("Transfer berhasil!");
+            } else {
+                alert("Saldo tidak cukup!");
+            }
+            cekSaldo();
+        }
+    </script>
+</body>
+</html>

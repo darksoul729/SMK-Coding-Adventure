@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WASM Kalkulator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles for a full screen calculator */
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+        }
+        .calculator-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+        }
+        .calculator-box {
+            background-color: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            width: 100%;
+            max-width: 700px; /* Full width on desktop but with a max size */
+            text-align: center;
+        }
+        .input, .button {
+            font-size: 1.5rem;
+        }
+        .button:hover {
+            filter: brightness(1.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .calculator-box {
+                padding: 20px;
+            }
+            .input, .button {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="calculator-container">
+        <div class="calculator-box">
+            <h1 class="title is-3 mb-4">Kalkulator WebAssembly</h1>
+
+            <input type="number" id="num1" placeholder="Masukkan angka 1" 
+                class="input is-rounded is-medium mb-3 has-background-light">
+
+            <input type="number" id="num2" placeholder="Masukkan angka 2" 
+                class="input is-rounded is-medium mb-3 has-background-light">
+            
+            <div class="buttons is-flex is-justify-content-space-between mb-4">
+                <button onclick="hitung('tambah')" class="button is-primary is-rounded is-fullwidth">+</button>
+                <button onclick="hitung('kurang')" class="button is-danger is-rounded is-fullwidth">-</button>
+                <button onclick="hitung('kali')" class="button is-success is-rounded is-fullwidth">×</button>
+                <button onclick="hitung('bagi')" class="button is-warning is-rounded is-fullwidth">÷</button>
+            </div>
+
+            <h2 class="title is-4">Hasil: <span id="hasil" class="has-text-weight-bold">0</span></h2>
+        </div>
+    </div>
+
+    <script src="hello.js"></script>
+    <script>
+        let wasmModule;
+        
+        Module().then(instance => {
+            wasmModule = instance;
+        });
+
+        function hitung(operasi) {
+            let a = parseFloat(document.getElementById("num1").value);
+            let b = parseFloat(document.getElementById("num2").value);
+            let hasil = 0;
+
+            if (!wasmModule) {
+                alert("WASM belum siap!");
+                return;
+            }
+
+            switch (operasi) {
+                case "tambah":
+                    hasil = wasmModule._tambah(a, b);
+                    break;
+                case "kurang":
+                    hasil = wasmModule._kurang(a, b);
+                    break;
+                case "kali":
+                    hasil = wasmModule._kali(a, b);
+                    break;
+                case "bagi":
+                    hasil = wasmModule._bagi(a, b);
+                    break;
+            }
+
+            document.getElementById("hasil").innerText = hasil;
+        }
+    </script>
+</body>
+</html>
