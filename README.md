@@ -1,7 +1,4 @@
 # <span style="color: #4CAF50;">Tentang Saya</span>
-<p align="center">
-  <img src="https://c.top4top.io/p_3323blqkv1.jpg" alt="Tentang Saya" style="width: 800px; height: 450px;">
-</p>
 
 
 ## <span style="font-family: 'Arial', sans-serif; color: #333;">Kevin Hermansyah</span>
