@@ -8,9 +8,10 @@
 
 <h2 align="center">Kevin Hermansyah</h2>
 
-- 🎓 **Kelas:** X-PPLG
-- 🔥 **Usia:** 16 Tahun
-- 💻 **Fullstack Developer**
+<p align="center">
+  📚 <strong>Kelas:</strong> X-PPLG | 🔥 <strong>Usia:</strong> 16 Tahun | 💻 <strong>Fullstack Developer</strong>
+</p>
+
 - 🌐 **Bahasa Pemrograman & Teknologi:**
 
 <p align="center">
@@ -18,7 +19,7 @@
   <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
   <img src="https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black" alt="React">
   <img src="https://img.shields.io/badge/AJAX-%230000FF.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="AJAX">
-  <img src="https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
+  <img src="https://img.shields.io/badge/Laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel">
 </p>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python">
@@ -34,8 +35,8 @@
 
 ## 📚 Materi di SMK TI Airlangga
 
-- 🔹 **Frontend Development**: HTML, CSS, JavaScript, Tailwind CSS, Bulma, React, Next.js
-- 🔹 **Backend Development**: PHP, Python, AJAX
+- 🔹 **Frontend Development**: HTML, CSS, JavaScript, Tailwind CSS, Bulma, React
+- 🔹 **Backend Development**: PHP, Python, AJAX, Laravel
 - 🔹 **Database**: MySQL
 - 🔹 **Pemrograman Dasar**: C++, Python
 - 🔹 **Versi Kontrol**: Git, GitHub
