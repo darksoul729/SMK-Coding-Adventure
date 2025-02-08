@@ -32,7 +32,7 @@
   <img src="https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 </p>
 
-## 📚 Bahasa Yang Saya Kuasai
+## 📚 Materi Yang Saya Kuasai
 
 - 🔹 **Frontend Development**: HTML, CSS, JavaScript, Tailwind CSS, Bulma, React
 - 🔹 **Backend Development**: PHP, Python, AJAX, Laravel
