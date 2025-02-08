@@ -3,7 +3,7 @@
 ## 🏫 Tentang Saya
 
 <p align="center">
-  <img src="https://i.ibb.co.com/4gTMcR57/20250208-161853-removebg.png" alt="Kevin Hermansyah" style="border-radius: 50%; width: 200px; height: 200px; border: 5px solid #4CAF50; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <img src="https://i.ibb.co.com/4gTMcR57/20250208-161853-removebg.png" style="border-radius: 50%; width: 200px; height: 200px; border: 5px solid #4CAF50; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
 </p>
 
 <h2 align="center">Kevin Hermansyah</h2>
