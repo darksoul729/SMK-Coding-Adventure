@@ -39,8 +39,7 @@
 - 🔹 **Database**: MySQL
 - 🔹 **Pemrograman Dasar**: C++, Python
 - 🔹 **Versi Kontrol**: Git, GitHub
-- 🔹 **Manajemen Proyek**: Agile, SCRUM
-
+  
 ## 📬 Hubungi Saya
 
 <p align="center">
