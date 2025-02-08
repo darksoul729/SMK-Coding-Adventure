@@ -1,51 +1,56 @@
-# <span style="color: #4CAF50;">Tentang Saya</span>
+<h1 align="center" style="color: #4CAF50;">📘 Materi di SMK TI Airlangga</h1>
 
-
-## <span style="font-family: 'Arial', sans-serif; color: #333;">Kevin Hermansyah</span>
+## 🏫 Tentang Saya
 
 <p align="center">
-  <img src="https://e.top4top.io/p_3323z77iw0.jpg" alt="Kevin Hermansyah" style="border-radius: 50%; width: 200px; height: 200px; border: 5px solid #4CAF50; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+  <img src="https://i.ibb.co.com/4gTMcR57/20250208-161853-removebg.png" alt="Kevin Hermansyah" style="border-radius: 50%; width: 200px; height: 200px; border: 5px solid #4CAF50; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
 </p>
 
+<h2 align="center">Kevin Hermansyah</h2>
 
-Nama saya **Kevin Hermansyah**. Saat ini saya bersekolah di **SMK TI Airlangga**. Saya sangat tertarik dengan dunia pemrograman, khususnya dalam bidang **Fullstack Development**.
+- 🎓 **Kelas:** X-PPLG
+- 🔥 **Usia:** 16 Tahun
+- 💻 **Fullstack Developer**
+- 🌐 **Bahasa Pemrograman & Teknologi:**
 
-
-### 🚀 Skills
 <p align="center">
-  <img src="https://img.shields.io/badge/PHP-80%25-blue?style=for-the-badge&logo=php" alt="PHP">
-  <img src="https://img.shields.io/badge/React-85%25-61DAFB?style=for-the-badge&logo=react" alt="React">
-  <img src="https://img.shields.io/badge/C++-75%25-00599C?style=for-the-badge&logo=c%2B%2B" alt="C++">
+  <img src="https://img.shields.io/badge/PHP-%23007ACC.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP">
+  <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/React-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/AJAX-%230000FF.svg?style=for-the-badge&logo=javascript&logoColor=white" alt="AJAX">
+  <img src="https://img.shields.io/badge/Next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js">
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-90%25-3776AB?style=for-the-badge&logo=python" alt="Python">
-  <img src="https://img.shields.io/badge/JavaScript-88%25-F7DF1E?style=for-the-badge&logo=javascript" alt="JavaScript">
-  <img src="https://img.shields.io/badge/Go-70%25-00ADD8?style=for-the-badge&logo=go" alt="Go">
+  <img src="https://img.shields.io/badge/Python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/C++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML">
+  <img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Java-80%25-007396?style=for-the-badge&logo=java" alt="Java">
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-%2306B6D4.svg?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Bulma-%2300D1B2.svg?style=for-the-badge&logo=bulma&logoColor=white" alt="Bulma">
+  <img src="https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 </p>
 
-## <span style="font-family: 'Arial', sans-serif; color: #333;">Motivasi Hidup Menjadi Fullstack Programmer</span>
+## 📚 Materi di SMK TI Airlangga
 
-Saya selalu percaya bahwa teknologi memiliki kekuatan untuk mengubah dunia. Sebagai seorang Fullstack Programmer, saya ingin menjadi bagian dari perubahan tersebut dengan menciptakan aplikasi yang dapat mempermudah kehidupan orang banyak. Melalui perjalanan ini, saya berusaha untuk tidak hanya menguasai teknologi, tetapi juga mengembangkan kemampuan problem solving yang dapat membantu menyelesaikan berbagai tantangan yang ada. Setiap baris kode yang saya tulis adalah langkah menuju impian saya untuk menciptakan solusi inovatif di dunia teknologi.
+- 🔹 **Frontend Development**: HTML, CSS, JavaScript, Tailwind CSS, Bulma, React, Next.js
+- 🔹 **Backend Development**: PHP, Python, AJAX
+- 🔹 **Database**: MySQL
+- 🔹 **Pemrograman Dasar**: C++, Python
+- 🔹 **Versi Kontrol**: Git, GitHub
+- 🔹 **Manajemen Proyek**: Agile, SCRUM
 
-### <span style="font-family: 'Arial', sans-serif; color: #333;">Tujuan Saya:</span>
-- Mempelajari lebih dalam tentang backend dan frontend development.
-- Menciptakan aplikasi yang memberikan dampak positif bagi masyarakat.
-- Terus berkembang dan menyesuaikan diri dengan tren teknologi yang terus berubah.
+## 📬 Hubungi Saya
 
----
-
-## 📱 Hubungi Saya
-
-<p align="left">
+<p align="center">
   <a href="https://www.instagram.com/kepinnpanzekk_" target="_blank">
     <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
   </a>
   <a href="https://wa.me/6287777581730" target="_blank">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
   </a>
+  <a href="https://github.com/kevinhermansyah" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
 </p>
-
-Terima kasih telah mengunjungi profil saya!
