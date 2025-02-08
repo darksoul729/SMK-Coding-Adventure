@@ -1,4 +1,4 @@
-<h1 align="center" style="color: #4CAF50;">📘 Materi di SMK TI Airlangga</h1>
+<h1 align="center" style="color: #4CAF50;">📘 Progres di SMK TI Airlangga</h1>
 
 ## 🏫 Tentang Saya
 
@@ -32,7 +32,7 @@
   <img src="https://img.shields.io/badge/MySQL-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
 </p>
 
-## 📚 Materi di SMK TI Airlangga
+## 📚 Bahasa Yang Saya Kuasai
 
 - 🔹 **Frontend Development**: HTML, CSS, JavaScript, Tailwind CSS, Bulma, React
 - 🔹 **Backend Development**: PHP, Python, AJAX, Laravel
