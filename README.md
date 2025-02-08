@@ -8,10 +8,9 @@
 
 <h2 align="center">Kevin Hermansyah</h2>
 
-<p align="center">
-  📚 <strong>Kelas:</strong> X-PPLG | 🔥 <strong>Usia:</strong> 16 Tahun | 💻 <strong>Fullstack Developer</strong>
-</p>
-
+- 🎓 **Kelas:** X-PPLG
+- 🔥 **Usia:** 16 Tahun
+- 💻 **Fullstack Developer**
 - 🌐 **Bahasa Pemrograman & Teknologi:**
 
 <p align="center">
